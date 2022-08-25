@@ -1,0 +1,90 @@
+
+
+        ^        THIS IS JUST A REMINDER:
+       / \       If something does not work please double-check
+      / | \      that you are using https://www.wetterturnier.de
+     /  |  \     (not http://...) and, if you are sending data via
+    /   .   \    wget please do not forget the --no-check-certificate
+   -----------   option.
+
+
+PARSING POST PARAMETERS
+=======================
+Parsing parameters.
+Found city Berlin (BER,ID 1) for input BER
+
+TRY TO LOGIN TO WETTERTURNIER NOW
+
+==================================
+Hello, Foehni!
+User is not and was never in group Automaten.
+You are nothing!
+Login for user Foehni with password **** was successful
+
+
+CHECKING TOURNAMENT AND CHECK IF OPEN OR CLOSED
+===============================================
+Note: tournament 2022-08-26 is open to take your bet...
+
+SHOW INFORMATION PARSED BY THE AUTOSUBMIT SCRIPT
+================================================
+
+  CITY INFORMATION
+  ----------------
+  City name:           Berlin
+  City hash:           BER
+  City ID:             1
+
+  IGNORED PARAMETERS
+  ------------------
+  No parameter were ignored, everything ok.
+
+  OUTPUT FROM VALUE CHECK ROUTINE
+  -------------------------------
+  No notifications found, everything ok.
+
+  LOADED PARAMETERS
+  -----------------
+                      
+   Day 1    Day 2 
+     6,0     40,0 
+    14,0     70,0 
+   300,0    280,0 
+     6,0      5,7 
+  1013,8   1015,4 
+    24,5     26,2 
+    17,5     13,9 
+    16,4     11,6 
+    19,2     25,3 
+     1,0      0,0 
+     9,3     10,1 
+     3,4      0,1 
+
+WRITE DATA TO DATABASE
+======================
+           Username     Tournament       Valid for         Param      Value
+  - Write:     Foehni    Fr 26.08.2022    Sa 27.08.2022:   Sd1         6,0
+  - Write:     Foehni    Fr 26.08.2022    Sa 27.08.2022:   Sd24       14,0
+  - Write:     Foehni    Fr 26.08.2022    Sa 27.08.2022:   dd12      300,0
+  - Write:     Foehni    Fr 26.08.2022    Sa 27.08.2022:   ff12        6,0
+  - Write:     Foehni    Fr 26.08.2022    Sa 27.08.2022:   PPP12    1013,8
+  - Write:     Foehni    Fr 26.08.2022    Sa 27.08.2022:   Tmax       24,5
+  - Write:     Foehni    Fr 26.08.2022    Sa 27.08.2022:   Tmin       17,5
+  - Write:     Foehni    Fr 26.08.2022    Sa 27.08.2022:   Td12       16,4
+  - Write:     Foehni    Fr 26.08.2022    Sa 27.08.2022:   T12        19,2
+  - Write:     Foehni    Fr 26.08.2022    Sa 27.08.2022:   RR1         1,0
+  - Write:     Foehni    Fr 26.08.2022    Sa 27.08.2022:   fx24        9,3
+  - Write:     Foehni    Fr 26.08.2022    Sa 27.08.2022:   RR24        3,4
+  - Write:     Foehni    Fr 26.08.2022    So 28.08.2022:   Sd1        40,0
+  - Write:     Foehni    Fr 26.08.2022    So 28.08.2022:   Sd24       70,0
+  - Write:     Foehni    Fr 26.08.2022    So 28.08.2022:   dd12      280,0
+  - Write:     Foehni    Fr 26.08.2022    So 28.08.2022:   ff12        5,7
+  - Write:     Foehni    Fr 26.08.2022    So 28.08.2022:   PPP12    1015,4
+  - Write:     Foehni    Fr 26.08.2022    So 28.08.2022:   Tmax       26,2
+  - Write:     Foehni    Fr 26.08.2022    So 28.08.2022:   Tmin       13,9
+  - Write:     Foehni    Fr 26.08.2022    So 28.08.2022:   Td12       11,6
+  - Write:     Foehni    Fr 26.08.2022    So 28.08.2022:   T12        25,3
+  - Write:     Foehni    Fr 26.08.2022    So 28.08.2022:   RR1         0,0
+  - Write:     Foehni    Fr 26.08.2022    So 28.08.2022:   fx24       10,1
+  - Write:     Foehni    Fr 26.08.2022    So 28.08.2022:   RR24        0,1
+  - Update betstat table

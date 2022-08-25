@@ -1,0 +1,37 @@
+[general settings]
+
+url       =  http://85.214.230.47/autosubmit/
+logfile   =  autosubmit_%%city%%_%%user%%.txt
+user      =  Foehni
+password  =  2468
+city      =  BER
+
+[parameters]
+
+
+Sd1_1=6
+Sd24_1=14
+dd12_1=300
+ff12_1=6.0
+PPP12_1=1013.8
+Tmax_1=24.5
+Tmin_1=17.5
+Td12_1=16.4
+T12_1=19.2
+RR1_1=1.0
+fx24_1=9.3
+RR24_1=3.4
+
+
+Sd1_2=40
+Sd24_2=70
+dd12_2=280
+ff12_2=5.7
+PPP12_2=1015.4
+Tmax_2=26.2
+Tmin_2=13.9
+Td12_2=11.6
+T12_2=25.3
+RR1_2=0.0
+fx24_2=10.1
+RR24_2=0.1
